@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    margin-left: -1.5%;
+
+}
+.logo{
+font-size:1.5em;
+color:#021229;
+text-decoration: none;
+margin-left: 0.4em;
+}
+.navbar a{
+    position: relative;
+    font-size: 1.5em;
+    color: #021229;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background-color:#021229;
+transition: 0.2s;
+}
+.navbar a:hover::before{
+    width: 100%;
+
+}
+.products
+{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Crimson Text", serif;
+}
+body 
+{
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+/* .container
+{
+    max-width: 144rem;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+}  */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem , 1fr));
+    gap: 1.8%;
+}
+.product{
+    background: #cecece;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.product img{
+    width: 20vw;
+    height: 20vw;
+    padding: 1rem;
+}
+.product .product-title {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.product-title,
+.product-price-container,
+.product-description,
+.product-category
+{
+    padding: 0.5rem, 0.5rem;
+    margin-left: 3%;
+}
+.product-price-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-to-cart
+{
+    background: #8ec0e4;
+    color: #091d36;
+    width: 5em;
+    height: 2rem;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.add-to-cart:hover {
+    color: #8ec0e4;
+    background: #091d36;
+}

@@ -9,7 +9,7 @@
 
      .profile {
         position:absolute;
-         top:13%; 
+         top:20%; 
         left:2%;
     font-family: "Julius Sans One";
    
@@ -119,7 +119,7 @@ color: #000000;
 font-weight: bolder;
 }  
 
-/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"); */
+
 :root {
     --Moderate-blue: hsl(238, 40%, 52%);
     --Soft-Red: hsl(358, 79%, 66%);

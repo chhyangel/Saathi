@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-
+    afamily: "Julius Sans One"; */
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 70px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    margin-left: 1%;
+    font-family: "Julius Sans One";
+
+}
+.logo1{
+    font-size: 3em;
+    color:#021229;
+    text-decoration: none;
+    font-family: "Julius Sans One";
+    }
+.navbar a{
+        position: relative;
+        font-size: 1.8em;
+        color: #021229;
+        text-decoration: none;
+        margin-left:2.5em;
+        font-family: "Julius Sans One";
+    }
+
+.navbar a::before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 0.2vh;
+        background-color:#021229;
+        transition: 0.2s;
+        }
+.navbar a:hover::before{
+            width: 100%;
+        
+        }
+
+.destination{
+    margin-top:  1em;
+    font-size:3em;
+    margin-left:28% ;
+    font-family: "Julius Sans One";
+}  
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBar{
+    width: 100%;
+    max-width: 700px;
+    background:#C5CFD8 ;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    
+}
+.searchBar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 1.2em;
+    color:#021229 ;
+}
+::placeholder{
+    color:#021229 ;font-family: "Julius Sans One";
+}
+.searchBar button img{
+    height: 40px;
+    width: 60px;
+}
+.searchBar button{
+    border: 0;
+    background:transparent;
+    cursor: pointer;
+}
+section p:nth-child(1){
+    margin-top: 3em;
+    font-size: 3em;
+    font-family: "Julius Sans One";
+}
+
+section img{
+    height: 50vh;
+    width: 33vw;
+    margin-top: 0em;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.pisang,
+.bardia,
+.raniMahal{
+    position: relative;
+    transition: filter 0.6s ease-in-out;
+}
+
+img:hover{
+    filter: brightness(20%);
+}
+
+.pisangTxt,
+.bardiaTxt,
+.raniMahalTxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Julius Sans One";
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+    filter: brightness(100%);
+}
+.pisang:hover .pisangTxt,
+.bardia:hover .bardiaTxt,
+.raniMahal:hover .raniMahalTxt{
+    opacity: 1;
+}
+.footer
+{
+    width: 100%;
+    height: 15em;
+    background-color: #006192;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+
+}
+.upper
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3.5em;
+    margin-left: 3em;
+    margin-top: 0.5em ;
+}
+.about
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 15em;
+    margin-top: 3em;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+.map, .contactUs, .termsConditions
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-size: 1.1em;  
+}
+.lower
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 50%;
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+#links :hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.about:hover, .map:hover, .contactUs:hover, .termsConditions:hover, .lower:hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.logo:hover
+{
+cursor: pointer;
+}
+
