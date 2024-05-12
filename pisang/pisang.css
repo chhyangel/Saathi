@@ -1,0 +1,251 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.crimson-text-semibold 
+{
+      font-family: "Crimson Text", serif;
+      font-weight: 600;
+      font-style: normal;
+}
+.video1
+{
+    padding: 0;
+    margin: 1%;
+}
+
+.container1
+{
+    display: flex;
+    flex-direction: row;
+}
+.introText1
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 2%;
+}
+.heading1, .heading2
+{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    font-size: 4em;
+    margin-top: 3%;
+}
+.text1 , .text2
+{
+    text-align: justify;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+.subheading
+{
+    font-family: "Crimson Text", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+    margin-top: 1%;
+}
+.rightEnd
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+
+}
+.top
+{
+justify-self: flex-end;
+}
+.below
+{
+    display: flex;
+    flex-direction: row;
+}
+.right
+{
+    display: flex;
+    flex-direction: row;
+}
+.collage
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+  
+}
+.left
+{
+    margin-right: 0.5%;
+}
+.container2
+{
+    margin-left: 1%;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: row;
+}
+.introText2
+{
+margin-right: 2%;
+margin-top: 10%;
+margin-left: 2%;
+}
+.subheading2
+{
+    font-family: "Crimson Text", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;   
+}
+.text3
+{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    font-size: 2em;
+    margin-top: 9%;  
+    margin-left: 2%; 
+}
+.aspects
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.artText,.cultureText, .foodText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Crimson Text;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+  }
+.art, .culture, .food
+  {
+    position: relative;
+    transition: filter 0.3s ease-in-out;
+  }
+.art:hover .artText,
+.culture:hover .cultureText,
+.food:hover .foodText{
+    opacity: 1;
+  }
+.art:hover .artimg, .culture:hover .cultureimg, .food:hover .foodimg
+  {
+  filter: brightness(20%);
+  }
+.button
+{
+margin-left: 45%;
+margin-top: 5%;
+}
+button
+{
+    width: 10em;
+    height: 2em;
+    font-size: 1.5em;
+    font-family: "Crimson Text", serif;
+    font-weight: 800;
+    background-color: none;
+    border: 2px solid #021229;
+}
+.button :hover
+{
+    background-color: #021229;
+    color: white;
+}
+.footer
+{
+    width: 100%;
+    height: 15em;
+    background-color: #006192;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.upper
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3.5em;
+    margin-left: 3em;
+    margin-top: 0.5em ;
+}
+.about
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+.map, .contactUs, .termsConditions
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-size: 1.1em;  
+}
+.lower
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 50%;
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+#links :hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.about:hover, .map:hover, .contactUs:hover, .termsConditions:hover, .lower:hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.logo:hover
+{
+cursor: pointer;
+}
+
