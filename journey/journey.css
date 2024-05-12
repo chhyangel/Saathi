@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8ec0e4;
+    overflow-x: hidden;
+}
+
+.elements
+{
+    display: flex;
+    flex-direction: row;
+}
+.map1
+{
+    margin-left: 4%;
+    
+}
+.box
+{
+    width: 34vw;
+    height: 60vh;
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 0%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    align-items: flex-start;
+    border-radius: 1%;
+}
+.friend, .hourlyCharges, .journeyStarted
+{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+button
+{
+    background-color: none;
+    border: 2px solid #091d36;
+    color: #091d36;
+    font-family:"Crimson Text", serif ;
+    font-size: 1em;
+    align-self: center;
+    margin-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+button:hover
+{
+    background-color: #091d36;
+    color: white;
+    cursor: pointer;
+}
+.footer
+{
+    width: 100%;
+    height: 15em;
+    background-color: #006192;
+    margin-top: -0.2em;
+    display: flex;
+    flex-direction: column;
+}
+.upper
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3.5em;
+    margin-left: 3em;
+    margin-top: 0.5em ;
+}
+.about
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+.map2, .contactUs, .termsConditions
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-size: 1.1em;  
+}
+.lower
+{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 50%;
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+#links :hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.about:hover, .map:hover, .contactUs:hover, .termsConditions:hover, .lower:hover
+{
+    color: #021229;
+    cursor: pointer;
+}
+.logo:hover
+{
+cursor: pointer;
+}
+
+

@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:  rgba(173, 225, 255, 1);
+    
+}
+h1{
+    font-family: "Julius Sans One";
+    margin-left: 33%;
+    margin-top:5%;
+}
+.start{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:40vw;
+    height:65vh;
+    background-color: white;
+    font-family: Crimson Text;
+}
+
+.start ion-icon{
+    float: right;
+    margin: 1%;
+    font-size: 2em;
+}
+
+
+
+.start h1{
+  font-family: Crimson Text;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.start p{
+    font-family: Crimson Text;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10%;
+    font-weight: lighter;
+    margin-left: 15%;
+}
+.payment{
+     margin-top: -10%; 
+}
+button{
+    display: flex;
+ justify-content: center;
+ align-items: center; 
+ 
+ /* text-align: center; */
+ /* flex-direction: column; */
+  width:15vw;
+  height: 6vh;
+  border: 1px rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 2%;
+  margin-left: 35%;
+  cursor: pointer;
+ 
+  font-family: "Julius Sans One";
+}
+
+button:hover{
+background-color: aliceblue;
+color: #000000;
+font-weight: bolder;
+} 

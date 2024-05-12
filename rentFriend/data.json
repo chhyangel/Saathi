@@ -1,0 +1,55 @@
+{
+    "currentUser": {
+      "image": { 
+        "png": "./images/avatars/image-juliusomo.png",
+        "webp": "./images/avatars/image-juliusomo.webp"
+      },
+      "username": "Amisha"
+    },
+    "comments": [
+      {
+        "id": 1,
+        "content": "Ram is really cheerful and made me feel like a local.",
+        "createdAt": "1 month ago",
+        "score": 5,
+        "user": {
+          "image": { 
+            "png": "./images/avatars/samP.png",
+            "webp": "./images/avatars/samw.webp"
+          },
+          "username": "Sam"
+        },
+        "replies": []
+      },
+      {
+        "id": 2,
+        "content": "Ram is the best companion ever to explore the beauty of Pisang Village.",
+        "createdAt": "2 weeks ago",
+        "score": 4,
+        "user": {
+          "image": { 
+            "png": "./images/avatars/nellaP.png",
+            "webp": "./images/avatars/nellaW.webp"
+          },
+          "username": "Nella"
+        },
+        "replies": [
+          {
+            "id": 3,
+            "content": "Thank you so much for your kind words. Your feedback is truly appreciated",
+            "createdAt": "1 week ago",
+            "score": 4,
+            "replyingTo": "Sam",
+            "user": {
+              "image": { 
+                "png": "./images/avatars/ramP.png",
+                "webp": "./images/avatars/ramw.webp"
+              },
+              "username": "ramsesmiron"
+            }
+          }
+
+        ]
+      }
+    ]
+  }
